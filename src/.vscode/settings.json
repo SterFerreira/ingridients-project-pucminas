@@ -1,0 +1,28 @@
+{
+    "favorites.resources": [
+        {
+            "filePath": "pages",
+            "group": "Default"
+        },
+        {
+            "filePath": "App.js",
+            "group": "Default"
+        },
+        {
+            "filePath": "styles",
+            "group": "Default"
+        },
+        {
+            "filePath": "components",
+            "group": "Default"
+        },
+        {
+            "filePath": "database",
+            "group": "Default"
+        },
+        {
+            "filePath": "services",
+            "group": "Default"
+        }
+    ]
+}

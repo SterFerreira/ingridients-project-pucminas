@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "email": "joao@gmail.com",
+      "password": "$2a$10$ui3h0tD7eNv20mP6EJ00neGXOp5Ca/vVSdwGSQ/ITRfFMavLEmMyi",
+      "name": "joao",
+      "id": 1,
+      "createdRecipesId": [
+        1
+      ],
+      "favoredRecipesId": [
+        1
+      ],
+      "reviewsId": [
+        1
+      ]
+    },
+    {
+      "email": "carlos@gmail.com",
+      "password": "$2a$10$/NO7DEnXqF9XGFc4tqhqwuibIa5GIPRSNaXfeppJ0JcuP/.dyzydu",
+      "name": "carlos",
+      "id": 2,
+      "createdRecipesId": [],
+      "favoritedRecipesId": [],
+      "reviewsId": [
+        2
+      ]
+    },
+    {
+      "email": "felipe@felipe.com",
+      "password": "160300",
+      "id": 3
+    },
+    {
+      "email": "vlinvictus@gmail.com",
+      "password": "$2a$10$tEOQaaCb9S66oQSym1xDY.UrAJ4rfPccyLkwJx5TU4iKQStpp65xS",
+      "id": 4
+    }
+  ],
+  "recipes": [
+    {
+      "name": "bolo de banana",
+      "imgUrl": "https://recreio.uol.com.br/media/_versions/historia/kurama_capa_widemd.jpg",
+      "instructions": "mistura tudo e bate e assa",
+      "ingredients": [
+        "banana",
+        "farinha",
+        "ovo"
+      ],
+      "id": 1,
+      "createdByUserId": 1,
+      "reviewsIdList": [
+        1,
+        2
+      ],
+      "favoritedByUserIdList": [
+        2
+      ]
+    },
+    {
+      "name": "bolo de morango",
+      "imgUrl": "https://images.aws.nestle.recipes/resized/29bb98070ebfcbab93128be99ddd4327_bolo-banana-caramelada-receitas-nestle_1200_600.jpg",
+      "instructions": "mistura tudo e bate e assa",
+      "ingredients": [
+        "banana",
+        "farinha",
+        "ovo"
+      ],
+      "id": 2,
+      "createdByUserId": 1,
+      "reviewsIdList": [],
+      "favoritedByUserIdList": [
+        2
+      ]
+    },
+    {
+      "imgUrl": "https://th.bing.com/th/id/R.dcea431781163ee00ca52823dff5c066?rik=YCF1wTRxFmSVuw&riu=http%3a%2f%2fwww.flamboesa.com.br%2fwp-content%2fuploads%2f2018%2f12%2fbolo-kitkat-morango-2.jpg&ehk=9fyuSDpz67bxsbeUGEycUwcv9b03Rbp8uKp3vnIXLR8%3d&risl=&pid=ImgRaw&r=0",
+      "name": "Bolo de morango",
+      "ingredients": "farinha de trigo, morango, ovo, leite ",
+      "instructions": "Misture tudo e coloque no forno. Temperatura: 800C. Tempo: 11 horas.",
+      "id": 6,
+      "favoritedByUserIdList": [],
+      "createdByUserId": 2
+    },
+    {
+      "imgUrl": "https://th.bing.com/th/id/R.dcea431781163ee00ca52823dff5c066?rik=YCF1wTRxFmSVuw&riu=http%3a%2f%2fwww.flamboesa.com.br%2fwp-content%2fuploads%2f2018%2f12%2fbolo-kitkat-morango-2.jpg&ehk=9fyuSDpz67bxsbeUGEycUwcv9b03Rbp8uKp3vnIXLR8%3d&risl=&pid=ImgRaw&r=0",
+      "name": "Bolo de Morango",
+      "ingredients": "Morango, farinha de trigo, ovo.",
+      "instructions": "Misture tudo, pode comer.",
+      "id": 7,
+      "favoritedByUserIdList": [
+        1
+      ],
+      "createdByUserId": 3
+    },
+    {
+      "imgUrl": "https://s2.glbimg.com/SkyLTd6VJy8WiUMg5L6EeUwgyMw=/0x0:620x548/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/B/t/limPwzQmSeI4WJO7haZg/2012-08-15-mf1.jpg",
+      "name": "teste",
+      "ingredients": "teste",
+      "instructions": "teste",
+      "id": 10,
+      "createdByUserId": 1,
+      "favoritedByUserIdList": []
+    },
+    {
+      "imgUrl": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Naruto-Classico-e-Naruto-Shippuden-fillers-695x500.jpg",
+      "name": "TesteNaruto",
+      "ingredients": "Naruto, sasuke, bla bla",
+      "instructions": "TO CERTO",
+      "createdByUserId": 1,
+      "favoritedByUserIdList": [],
+      "id": 11
+    },
+    {
+      "imgUrl": "https://viciados.net/wp-content/uploads/2020/02/Naruto-Cl%C3%A1ssico-e-Naruto-Shippuden-fillers.jpg",
+      "name": "Teste img",
+      "ingredients": "NarutoTeste",
+      "instructions": "NarutoTeste",
+      "createdByUserId": 1,
+      "favoritedByUserIdList": [],
+      "id": 12
+    },
+    {
+      "imgUrl": "https://recreio.uol.com.br/media/_versions/historia/kurama_capa_widemd.jpg",
+      "name": "Raposa",
+      "ingredients": "Raposa",
+      "instructions": "Raposa",
+      "createdByUserId": 4,
+      "favoritedByUserIdList": [],
+      "id": 13
+    },
+    {
+      "imgUrl": "https://recreio.uol.com.br/media/_versions/historia/kurama_capa_widemd.jpg",
+      "name": "Raposa teste",
+      "ingredients": "Raposaasdfasdf\naaa",
+      "createdByUserId": 2,
+      "favoritedByUserIdList": [],
+      "instructions": "Raposaaaaa",
+      "id": 14
+    },
+    {
+      "imgUrl": "https://images.aws.nestle.recipes/resized/29bb98070ebfcbab93128be99ddd4327_bolo-banana-caramelada-receitas-nestle_1200_600.jpg",
+      "name": "teste",
+      "ingredients": "teste",
+      "instructions": "teste",
+      "createdByUserId": 1,
+      "favoritedByUserIdList": [
+        1
+      ],
+      "id": 15
+    },
+    {
+      "imgUrl": "a",
+      "name": "teste2",
+      "ingredients": "teste2",
+      "instructions": "teste2",
+      "createdByUserId": 1,
+      "favoritedByUserIdList": [
+        1
+      ],
+      "id": 16
+    },
+    {
+      "imgUrl": "aaaa",
+      "name": "aaaaa",
+      "ingredients": "aaaa",
+      "instructions": "aaaa",
+      "createdByUserId": 1,
+      "favoritedByUserIdList": [
+        1
+      ],
+      "id": 17
+    },
+    {
+      "imgUrl": "http://localhost:19006/static/media/Ramen.67fe25a6.png",
+      "name": "teste teste testeeeee",
+      "ingredients": "banana, farinha e cocaina",
+      "instructions": "mistura todo",
+      "createdByUserId": 1,
+      "favoritedByUserIdList": [
+        1
+      ],
+      "id": 18
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "score": 5,
+      "comment": "delicia"
+    },
+    {
+      "id": 2,
+      "score": 1,
+      "comment": "um lixo"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "banana"
+    },
+    {
+      "name": "farinha"
+    },
+    {
+      "name": "ovo"
+    }
+  ]
+}
